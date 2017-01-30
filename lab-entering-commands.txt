@@ -169,4 +169,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
-The commands is the listing of the Desktop.
+The command is the "ls" the flag "-a" and the prompt is "$"
