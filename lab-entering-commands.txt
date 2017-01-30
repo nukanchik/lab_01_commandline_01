@@ -1,4 +1,3 @@
-
 Lab - Entering Commands
 ==========
 Follow the instructions line-by-line.  
@@ -17,6 +16,12 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
+Adlm			Library			Public
+Adobe			MPLABXProjects		Things
+Applications		Movies			ipe.properties
+Desktop			Music			isus
+Documents		New Unity Project	pymel.log
+Downloads		Pictures		xgen
 
 
 
@@ -27,19 +32,21 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-
+It offers me a variety of options with the letter “D” for example
+Desktop/ Documents/ Downloads
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-
+Desktop/   Documents/ Downloads/ 
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
 
+No such file or directory
 
 
 ==========
@@ -49,7 +56,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+drwxr-x---   2 student  staff    68 Aug 22 14:23 Adlm
+drwxr-xr-x   3 student  staff   102 Aug 22 14:23 Adobe
 
 
 ==========
@@ -59,7 +67,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+.			Arduino			Processing
+..			Avid Projects		REAPER Media
 
 
 ==========
@@ -69,7 +78,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
+ls -a Documents
 
 
 ==========
@@ -79,7 +88,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+ls -a Documents
 
 
 ==========
@@ -89,7 +98,8 @@ $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
+It showed me what’s inside Volumes
+“Macintosh HD”
 
 
 ==========
@@ -99,37 +109,38 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
+No such file or directory
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+UP 
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
+1) ls -l 
+2) ls -a Documents
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+<TAB>
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
+ls
 
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-
+Error “ No such file or directory”
 
 
 ==========
@@ -139,7 +150,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-
+command not found
 
 
 ==========
@@ -149,8 +160,7 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
-
-
+command not found
 
 ==========
 16.  In the following line....
@@ -159,3 +169,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+The commands is the listing of the Desktop.
